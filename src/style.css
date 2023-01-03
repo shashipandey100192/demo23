@@ -1,0 +1,19 @@
+*
+{
+    margin:0 auto;
+    padding:0;
+}
+.first
+{
+    width:100%;
+    height: auto;
+    border:1px solid rgb(216, 199, 199);
+    background-color:aqua;
+    box-sizing: border-box;
+}
+
+.one
+{
+    font-size:50px;
+    color:orange;
+}
