@@ -1,0 +1,34 @@
+*
+{
+    margin:0 auto;
+    padding: 0;
+}
+
+
+ul
+{
+    list-style: none;
+}
+.mynav
+{
+    width: 100%;
+    height: 50px;
+    background-color:orange;
+}
+.mynav ul
+{
+    display: flex;
+}
+
+
+.mynav li
+{
+    flex: 1;
+    line-height: 50px;
+    align-items: center;
+    text-align: center;
+}
+.mynav a
+{
+    text-decoration: none;
+}
