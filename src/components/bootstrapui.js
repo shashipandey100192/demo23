@@ -1,8 +1,10 @@
-import React from 'react'
+import React, { Fragment } from 'react'
 
 function Bootstrapui() {
   return (
-    <div>bootstrapui</div>
+    <Fragment>
+    <h1>bootstrap ui</h1>
+    </Fragment>
   )
 }
 
