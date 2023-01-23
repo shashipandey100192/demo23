@@ -6,6 +6,7 @@ import Home from './components/Home';
 import Bootstrapui from './components/bootstrapui';
 import Reactbootstrapui from './components/Reactbootstrapui';
 import MaterialUI from './components/MaterialUI';
+import Mydata from './components/Mydata';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -19,6 +20,8 @@ root.render(
         <Route path='bootstrappage' element={<Bootstrapui/>}/>
         <Route path='reactbootstrap' element={<Reactbootstrapui/>}/>
         <Route path='materialui' element={<MaterialUI/>}/>
+        <Route path='data' element={<Mydata/>}/>
+
       </Routes>
     </BrowserRouter>
  

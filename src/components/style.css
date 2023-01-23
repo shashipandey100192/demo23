@@ -1,0 +1,17 @@
+.mychild
+{
+    color:red;
+    height: 400px;
+    background-color: aqua;
+    border:1px solid red;
+}
+
+.box
+{
+    padding:50px;
+    background-color:gray;
+    border: 1px solid black;
+    margin:10px;
+    border-radius: 30px;
+    color:white;
+}
