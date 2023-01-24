@@ -24,6 +24,8 @@ function Mynav() {
           <li><Link to="reactbootstrap" className="nav-link px-2 link-dark">react bt</Link></li>
           <li><Link to="materialui" className="nav-link px-2 link-dark">matrial ui</Link></li>
           <li><Link to="data" className="nav-link px-2 link-dark">axios api</Link></li>
+          <li><Link to="custom" className="nav-link px-2 link-dark">custom list</Link></li>
+          
         </ul>
 
         <form className="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
