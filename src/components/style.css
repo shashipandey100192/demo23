@@ -15,3 +15,16 @@
     border-radius: 30px;
     color:white;
 }
+
+.cusdesign
+{
+    border:1p solid gray;
+    display: flex;
+    height:500px;
+}
+.cusdesign>section
+{
+    border:1px solid gray;
+    padding:20px;
+    flex:1;
+}

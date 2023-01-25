@@ -1,6 +1,7 @@
 import React, { Fragment, useState } from 'react';
 import axios from 'axios';
 import './style.css';
+import { Link } from 'react-router-dom';
 
 function Mydata() {
   const [sv,sf]=useState([]);
@@ -31,12 +32,16 @@ const getdata = ()=>{
 
       {sv.map(a =>{
                 return(
+                  <Fragment>
+                    <Link to={`${a.id}`}>
                     <div key={a.id} className="box">
+                 
                         <h3>{a.id}</h3>
                         <h4>{a.title}</h4>
                         <p>{a.body}</p>
-                        
                     </div>
+                    </Link>
+                    </Fragment>
                 )
             })}
 

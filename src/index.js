@@ -9,6 +9,7 @@ import MaterialUI from './components/MaterialUI';
 import Mydata from './components/Mydata';
 import Customdata from './components/Customdata';
 import Layout from './components/Layout';
+import Detailslayout from './components/Detailslayout';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -23,6 +24,7 @@ root.render(
         <Route path='reactbootstrap' element={<Reactbootstrapui/>}/>
         <Route path='materialui' element={<MaterialUI/>}/>
         <Route path='data' element={<Mydata/>}/>
+        <Route path='data/:id' element={<Detailslayout/>}/>
         <Route path='custom' element={<Customdata/>}/>
         <Route path='custom/:id' element={<Layout/>}/>
 
