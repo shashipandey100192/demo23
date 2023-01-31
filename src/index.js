@@ -10,6 +10,7 @@ import Mydata from './components/Mydata';
 import Customdata from './components/Customdata';
 import Layout from './components/Layout';
 import Detailslayout from './components/Detailslayout';
+import Loginform from './components/Loginform';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -27,7 +28,7 @@ root.render(
         <Route path='data/:id' element={<Detailslayout/>}/>
         <Route path='custom' element={<Customdata/>}/>
         <Route path='custom/:id' element={<Layout/>}/>
-
+        <Route path='forms' element={<Loginform/>}/>
       </Routes>
     </BrowserRouter>
  

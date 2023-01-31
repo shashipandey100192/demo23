@@ -19,7 +19,7 @@ function Mynav() {
           <li><Link to="" className="nav-link px-2 link-secondary">Home</Link></li>
           <li><Link to="#" className="nav-link px-2 link-dark">About</Link></li>
           <li><Link to="#" className="nav-link px-2 link-dark">Photos</Link></li>
-          <li><Link to="#" className="nav-link px-2 link-dark">Forms</Link></li>
+          <li><Link to="forms" className="nav-link px-2 link-dark">Forms</Link></li>
           <li><Link to="bootstrappage" className="nav-link px-2 link-dark">simple bt</Link></li>
           <li><Link to="reactbootstrap" className="nav-link px-2 link-dark">react bt</Link></li>
           <li><Link to="materialui" className="nav-link px-2 link-dark">matrial ui</Link></li>
