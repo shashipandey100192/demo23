@@ -60,3 +60,12 @@ export const LoginModal = ()=>{
     )
 
 }
+
+
+export const Headingone =()=>{
+
+return(
+    <h1>this is heading</h1>
+)
+
+}

@@ -1,14 +1,18 @@
-import React, { Fragment, useEffect, useState } from 'react';
-import { LoginModal } from './Modals';
+import React from 'react';
+import { LoginModal,Headingone } from './Modals';
 
 function Loginform() {
 
-const [mydata,setdata]=useState([]);
+const a=[
+    {name:'kumar',age:20,height:10},
+    {name:'singh',age:20,height:10},
+    {name:'pankaj',age:20,height:10},
+    {name:'kumar',age:20,height:10},
+    {name:'kumar',age:20,height:10},
+    {name:'kumar',age:20,height:10},
+];
 
-    useEffect(()=>{
-        setdata(localStorage.getItem('studentlist'));
-        console.log(mydata);
-    })
+
 
   return (
     <div className='container'>
@@ -23,6 +27,7 @@ const [mydata,setdata]=useState([]);
 
         <div className='row'>
             <div className='col-12'>
+                <Headingone/>
             <table class="table">
                 <thead>
                     <tr>
@@ -33,8 +38,17 @@ const [mydata,setdata]=useState([]);
                     </tr>
                 </thead>
                 <tbody>
-                 
-                        {mydata}
+                    {/* {a.map(({name,age,height})=>{ */}
+                    {a.map((a)=>{
+                        return(
+                            <tr>
+                                <td>{a.name}</td>
+                                <td>{a.age}</td>
+                                <td>{a.height}</td>
+                            </tr>
+                        )
+                    })}
+                    
                     
                 </tbody>
                 </table>
